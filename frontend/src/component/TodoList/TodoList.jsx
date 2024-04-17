@@ -65,13 +65,13 @@ const TodoList = () => {
 
                 <div className='m-4 text-3xl text-center text-lime-500'> No Todos Found</div> :
 
-                <table>
-                    <thead className='text-3xl bg-gray-300 text-black border-blue-200 rounded'>
+                <table className='m-10'>
+                    <thead className='text-center text-3xl bg-gray-300 text-black border-blue-200 rounded border-2'>
                         <tr className=''>
                             <td className='p-2 m-2'>Sr.No</td>
-                            <td>Todo Name</td>
-                            <td>Todo Status</td>
-                            <td>Actions</td>
+                            <td className='p-2 m-2 '>Todo Name</td>
+                            <td className='p-2 m-2'>Todo Status</td>
+                            <td >Actions</td>
                         </tr>
                     </thead>
                     <tbody className='justify-center'>
