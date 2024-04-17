@@ -29,7 +29,7 @@ const Home = () => {
                 <h2 className='text-3xl font-bold'>Todo List</h2>
             </div>
 
-            <AddTodoForm todos={todos}  setTodos={setTodos}/>
+            {/* <AddTodoForm todos={todos}  setTodos={setTodos}/> */}
             
             <TodoList todos={todos} />
         </>
